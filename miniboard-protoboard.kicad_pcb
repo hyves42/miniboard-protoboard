@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 0.201601211448+6504~42~ubuntu14.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 0.201602201416+6573~42~ubuntu14.04.1-product)
 
   (general
     (links 0)
@@ -8,7 +8,7 @@
     (drawings 6)
     (tracks 7)
     (zones 0)
-    (modules 530)
+    (modules 508)
     (nets 1)
   )
 
@@ -75,7 +75,6 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
-      (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -101,20 +100,70 @@
     (uvia_drill 0.1)
   )
 
-  (module protolib:proto_sot23_long (layer F.Cu) (tedit 56AAB243) (tstamp 56AAD109)
-    (at 188.595 110.49)
-    (fp_text reference proto_sot23 (at 0 -3.70078) (layer F.SilkS) hide
+  (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56CE24A1)
+    (at 189.865 109.22)
+    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value VAL** (at 0 3.79984) (layer F.SilkS) hide
+    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad 1 smd rect (at -0.94996 1.25) (size 0.57912 1.5) (layers F.Cu F.Paste F.Mask))
-    (pad 2 smd rect (at 0 1.25) (size 0.57912 1.5) (layers F.Cu F.Paste F.Mask))
-    (pad 3 smd rect (at 0.95 1.25) (size 0.57912 1.5) (layers F.Cu F.Paste F.Mask))
-    (pad 4 smd rect (at 0.95 -1.25) (size 0.57912 1.5) (layers F.Cu F.Paste F.Mask))
-    (pad 5 smd rect (at 0 -1.25) (size 0.57912 1.5) (layers F.Cu F.Paste F.Mask))
-    (pad 6 smd rect (at -0.95 -1.25) (size 0.57912 1.5) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd rect (at 0 0) (size 1 2) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56CE249D)
+    (at 189.865 111.76)
+    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad 1 smd rect (at 0 0) (size 1 2) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56CE2499)
+    (at 188.595 111.76)
+    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad 1 smd rect (at 0 0) (size 1 2) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56CE2495)
+    (at 188.595 109.22)
+    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad 1 smd rect (at 0 0) (size 1 2) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56CE248F)
+    (at 180.975 111.76)
+    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad 1 smd rect (at 0 0) (size 1 2) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56CE248B)
+    (at 180.975 109.22)
+    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad 1 smd rect (at 0 0) (size 1 2) (layers F.Cu F.Paste F.Mask))
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AAD0CE)
@@ -756,7 +805,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AACFDB)
-    (at 165.1 81.28)
+    (at 163.83 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -767,7 +816,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AACFD7)
-    (at 165.1 78.74)
+    (at 163.83 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -778,7 +827,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AACFD3)
-    (at 190.5 81.28)
+    (at 189.23 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -789,7 +838,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AACFCF)
-    (at 190.5 78.74)
+    (at 189.23 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -800,7 +849,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AACFCB)
-    (at 190.5 124.46)
+    (at 189.23 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -811,7 +860,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AACFC7)
-    (at 190.5 121.92)
+    (at 189.23 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -822,7 +871,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AACFC3)
-    (at 165.1 124.46)
+    (at 163.83 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -833,7 +882,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AACFBF)
-    (at 165.1 121.92)
+    (at 163.83 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -998,7 +1047,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACC6E)
-    (at 194.945 114.3)
+    (at 194.945 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1009,7 +1058,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACC6A)
-    (at 196.215 114.3)
+    (at 196.215 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1262,7 +1311,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACC0E)
-    (at 182.245 114.3)
+    (at 170.815 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1295,7 +1344,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACC02)
-    (at 193.675 114.3)
+    (at 193.675 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1328,7 +1377,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACBF6)
-    (at 183.515 114.3)
+    (at 172.085 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1361,7 +1410,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACBEA)
-    (at 184.785 114.3)
+    (at 173.355 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1394,7 +1443,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACBDE)
-    (at 186.055 109.22)
+    (at 187.325 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1416,7 +1465,7 @@
   )
 
   (module protolib:proto_sot23_long (layer F.Cu) (tedit 56AAB243) (tstamp 56AACBD1)
-    (at 194.945 110.47)
+    (at 194.945 113.03)
     (fp_text reference proto_sot23 (at 0 -3.70078) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1443,7 +1492,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACBC5)
-    (at 184.785 111.76)
+    (at 186.055 111.76)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1454,7 +1503,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACBBD)
-    (at 186.055 111.76)
+    (at 187.325 111.76)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1553,7 +1602,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACB99)
-    (at 184.785 109.22)
+    (at 186.055 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1740,7 +1789,7 @@
   )
 
   (module protolib:proto_sot23_long (layer F.Cu) (tedit 56AAB243) (tstamp 56AACB4C)
-    (at 182.245 110.49)
+    (at 183.515 113.03)
     (fp_text reference proto_sot23 (at 0 -3.70078) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1932,7 +1981,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACB04)
-    (at 172.085 114.3)
+    (at 183.515 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -1943,7 +1992,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACB00)
-    (at 173.355 114.3)
+    (at 184.785 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -2196,7 +2245,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACAA4)
-    (at 159.385 114.3)
+    (at 159.385 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -2229,7 +2278,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACA98)
-    (at 170.815 114.3)
+    (at 182.245 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -2262,7 +2311,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACA8C)
-    (at 160.655 114.3)
+    (at 160.655 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -2295,7 +2344,7 @@
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AACA80)
-    (at 161.925 114.3)
+    (at 161.925 109.22)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -2350,7 +2399,7 @@
   )
 
   (module protolib:proto_sot23_long (layer F.Cu) (tedit 56AAB243) (tstamp 56AACA67)
-    (at 172.085 110.47)
+    (at 172.085 113.03)
     (fp_text reference proto_sot23 (at 0 -3.70078) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -2707,7 +2756,7 @@
   )
 
   (module protolib:proto_sot23_long (layer F.Cu) (tedit 56AAB243) (tstamp 56AAC9E2)
-    (at 160.655 110.47)
+    (at 160.655 113.03)
     (fp_text reference proto_sot23 (at 0 -3.70078) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -3888,7 +3937,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC4BA)
-    (at 167.64 124.46)
+    (at 166.37 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -3899,7 +3948,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC4B6)
-    (at 170.18 121.92)
+    (at 168.91 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -3910,7 +3959,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC4B2)
-    (at 170.18 124.46)
+    (at 168.91 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -3921,7 +3970,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC4AE)
-    (at 162.56 121.92)
+    (at 161.29 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -3932,7 +3981,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC4AA)
-    (at 167.64 121.92)
+    (at 166.37 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -3943,7 +3992,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC4A6)
-    (at 172.72 124.46)
+    (at 171.45 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -3954,7 +4003,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC4A2)
-    (at 172.72 121.92)
+    (at 171.45 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -3965,7 +4014,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC49E)
-    (at 175.26 124.46)
+    (at 173.99 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -3976,7 +4025,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC49A)
-    (at 175.26 121.92)
+    (at 173.99 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -3987,7 +4036,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC496)
-    (at 177.8 121.92)
+    (at 176.53 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -3998,7 +4047,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC492)
-    (at 195.58 124.46)
+    (at 194.31 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4009,7 +4058,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC48E)
-    (at 195.58 121.92)
+    (at 194.31 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4020,7 +4069,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC48A)
-    (at 193.04 121.92)
+    (at 191.77 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4031,7 +4080,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC486)
-    (at 198.12 124.46)
+    (at 196.85 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4042,7 +4091,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC482)
-    (at 198.12 121.92)
+    (at 196.85 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4053,7 +4102,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC47E)
-    (at 182.88 121.92)
+    (at 181.61 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4064,7 +4113,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC47A)
-    (at 180.34 124.46)
+    (at 179.07 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4075,7 +4124,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC476)
-    (at 182.88 124.46)
+    (at 181.61 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4086,7 +4135,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC472)
-    (at 180.34 121.92)
+    (at 179.07 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4097,7 +4146,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC46E)
-    (at 177.8 124.46)
+    (at 176.53 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4108,7 +4157,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC46A)
-    (at 185.42 124.46)
+    (at 184.15 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4119,7 +4168,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC466)
-    (at 185.42 121.92)
+    (at 184.15 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4130,7 +4179,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC462)
-    (at 193.04 124.46)
+    (at 191.77 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4141,7 +4190,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC45E)
-    (at 187.96 121.92)
+    (at 186.69 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4152,29 +4201,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC45A)
-    (at 187.96 124.46)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 thru_hole rect (at 0 0) (size 1.99898 1.99898) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC452)
-    (at 157.48 121.92)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 thru_hole rect (at 0 0) (size 1.99898 1.99898) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC44A)
-    (at 157.48 124.46)
+    (at 186.69 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4185,7 +4212,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC446)
-    (at 160.02 124.46)
+    (at 158.75 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4196,7 +4223,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC442)
-    (at 162.56 124.46)
+    (at 161.29 124.46)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4207,7 +4234,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC43E)
-    (at 160.02 121.92)
+    (at 158.75 121.92)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4783,50 +4810,6 @@
     (pad 1 smd rect (at 0 0) (size 1 2) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module protolib:proto_pad3 (layer F.Cu) (tedit 56AAB2AA) (tstamp 56AAC243)
-    (at 127 88.9)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad3 (layer F.Cu) (tedit 56AAB2AA) (tstamp 56AAC23F)
-    (at 127 91.44)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad3 (layer F.Cu) (tedit 56AAB2AA) (tstamp 56AAC23B)
-    (at 127 83.82)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad3 (layer F.Cu) (tedit 56AAB2AA) (tstamp 56AAC237)
-    (at 127 86.36)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
-  )
-
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AAC230)
     (at 175.895 83.82)
     (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
@@ -4905,7 +4888,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC20E)
-    (at 182.88 81.28)
+    (at 181.61 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4916,7 +4899,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC20A)
-    (at 180.34 81.28)
+    (at 179.07 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4927,7 +4910,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC206)
-    (at 177.8 81.28)
+    (at 176.53 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4938,7 +4921,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC202)
-    (at 185.42 81.28)
+    (at 184.15 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4949,7 +4932,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1FE)
-    (at 198.12 81.28)
+    (at 196.85 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4960,7 +4943,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1FA)
-    (at 187.96 81.28)
+    (at 186.69 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4971,7 +4954,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1F6)
-    (at 193.04 81.28)
+    (at 191.77 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4982,7 +4965,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1F2)
-    (at 195.58 81.28)
+    (at 194.31 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -4993,18 +4976,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1EE)
-    (at 162.56 81.28)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 thru_hole rect (at 0 0) (size 1.99898 1.99898) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1EA)
-    (at 157.48 81.28)
+    (at 161.29 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5015,7 +4987,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1E2)
-    (at 160.02 81.28)
+    (at 158.75 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5026,7 +4998,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1DE)
-    (at 175.26 81.28)
+    (at 173.99 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5037,7 +5009,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1DA)
-    (at 170.18 81.28)
+    (at 168.91 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5048,7 +5020,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1D6)
-    (at 167.64 81.28)
+    (at 166.37 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5059,7 +5031,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1D2)
-    (at 172.72 81.28)
+    (at 171.45 81.28)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5070,7 +5042,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1CC)
-    (at 162.56 78.74)
+    (at 161.29 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5081,18 +5053,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1C8)
-    (at 160.02 78.74)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 thru_hole rect (at 0 0) (size 1.99898 1.99898) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1C4)
-    (at 157.48 78.74)
+    (at 158.75 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5103,7 +5064,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1BC)
-    (at 198.12 78.74)
+    (at 196.85 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5114,7 +5075,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1B8)
-    (at 195.58 78.74)
+    (at 194.31 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5125,7 +5086,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1B4)
-    (at 193.04 78.74)
+    (at 191.77 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5136,7 +5097,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1B0)
-    (at 187.96 78.74)
+    (at 186.69 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5147,7 +5108,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1AC)
-    (at 185.42 78.74)
+    (at 184.15 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5158,7 +5119,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1A8)
-    (at 182.88 78.74)
+    (at 181.61 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5169,7 +5130,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1A4)
-    (at 180.34 78.74)
+    (at 179.07 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5180,7 +5141,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC1A0)
-    (at 177.8 78.74)
+    (at 176.53 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5191,7 +5152,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC19A)
-    (at 175.26 78.74)
+    (at 173.99 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5202,7 +5163,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC196)
-    (at 170.18 78.74)
+    (at 168.91 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5213,7 +5174,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC192)
-    (at 172.72 78.74)
+    (at 171.45 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5224,7 +5185,7 @@
   )
 
   (module protolib:proto_pad2 (layer F.Cu) (tedit 56AAAF5B) (tstamp 56AAC18E)
-    (at 167.64 78.74)
+    (at 166.37 78.74)
     (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -5232,226 +5193,6 @@
       (effects (font (thickness 0.3048)))
     )
     (pad 1 thru_hole rect (at 0 0) (size 1.99898 1.99898) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module protolib:proto_pad3 (layer F.Cu) (tedit 56AAB2AA) (tstamp 56AAC185)
-    (at 127 93.98)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad3 (layer F.Cu) (tedit 56AAB2AA) (tstamp 56AAC181)
-    (at 127 96.52)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad3 (layer F.Cu) (tedit 56AAB2AA) (tstamp 56AAC17D)
-    (at 127 99.06)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad3 (layer F.Cu) (tedit 56AAB2AA) (tstamp 56AAC174)
-    (at 127 101.6)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC16A)
-    (at 147.32 101.6)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC166)
-    (at 147.32 99.06)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC162)
-    (at 147.32 100.33)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC15E)
-    (at 147.32 97.79)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC15A)
-    (at 148.59 97.79)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC156)
-    (at 148.59 99.06)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC152)
-    (at 148.59 101.6)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC14E)
-    (at 148.59 100.33)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC148)
-    (at 149.86 100.33)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC144)
-    (at 149.86 101.6)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC140)
-    (at 149.86 99.06)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC13C)
-    (at 149.86 97.79)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC136)
-    (at 151.13 101.6)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC132)
-    (at 151.13 100.33)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC12E)
-    (at 151.13 99.06)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AAC12A)
-    (at 151.13 97.79)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
   )
 
   (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AABF35)
@@ -5943,37 +5684,52 @@
     (pad 6 smd rect (at -0.95 -1.25) (size 0.57912 1.5) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module protolib:proto_pad (layer F.Cu) (tedit 56AAB2EB) (tstamp 56AABB6A)
-    (at 139.7 97.79)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+  (module mechanics:hole_2.5mm (layer F.Cu) (tedit 56A2AC9D) (tstamp 56CE2327)
+    (at 154.94 80.01)
+    (fp_text reference hole_2.5mm (at 0 -3) (layer F.SilkS) hide
+      (effects (font (thickness 0.15)))
     )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text value VAL** (at 0 3) (layer F.SilkS) hide
+      (effects (font (thickness 0.15)))
     )
-    (pad 1 smd rect (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 2.5) (layers *.Cu *.Mask F.SilkS)
+      (solder_mask_margin 1) (clearance 1))
   )
 
-  (module protolib:proto_pad4 (layer F.Cu) (tedit 56AAB4E2) (tstamp 56AABCBD)
-    (at 137.16 99.06)
-    (fp_text reference Ref** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+  (module mechanics:hole_2.5mm (layer F.Cu) (tedit 56A2AC9D) (tstamp 56CE244F)
+    (at 154.94 123.19)
+    (fp_text reference hole_2.5mm (at 0 -3) (layer F.SilkS) hide
+      (effects (font (thickness 0.15)))
     )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text value VAL** (at 0 3) (layer F.SilkS) hide
+      (effects (font (thickness 0.15)))
     )
-    (pad 1 smd rect (at 0 0) (size 1 2) (layers F.Cu F.Paste F.Mask))
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 2.5) (layers *.Cu *.Mask F.SilkS)
+      (solder_mask_margin 1) (clearance 1))
   )
 
-  (module protolib:proto_pad3 (layer F.Cu) (tedit 56AAB2AA) (tstamp 56AABD51)
-    (at 137.16 101.6)
-    (fp_text reference proto_pad2 (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+  (module mechanics:hole_2.5mm (layer F.Cu) (tedit 56A2AC9D) (tstamp 56CE2454)
+    (at 200.66 123.19)
+    (fp_text reference hole_2.5mm (at 0 -3) (layer F.SilkS) hide
+      (effects (font (thickness 0.15)))
     )
-    (fp_text value VAL** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text value VAL** (at 0 3) (layer F.SilkS) hide
+      (effects (font (thickness 0.15)))
     )
-    (pad 1 smd rect (at 0 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 2.5) (layers *.Cu *.Mask F.SilkS)
+      (solder_mask_margin 1) (clearance 1))
+  )
+
+  (module mechanics:hole_2.5mm (layer F.Cu) (tedit 56A2AC9D) (tstamp 56CE2459)
+    (at 200.66 80.01)
+    (fp_text reference hole_2.5mm (at 0 -3) (layer F.SilkS) hide
+      (effects (font (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 3) (layer F.SilkS) hide
+      (effects (font (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 2.5) (layers *.Cu *.Mask F.SilkS)
+      (solder_mask_margin 1) (clearance 1))
   )
 
   (gr_line (start 152.4 127) (end 152.4 76.2) (layer Edge.Cuts) (width 0.15))
@@ -6013,4 +5769,94 @@
   (segment (start 178.435 83.185) (end 178.435 120.015) (width 1) (layer F.Cu) (net 0))
   (segment (start 177.165 83.185) (end 177.165 102.235) (width 0.25) (layer Dwgs.User) (net 0))
 
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 152.4 82.55) (xy 203.2 82.55) (xy 203.2 120.65) (xy 152.4 120.65)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 157.257275 82.684281) (xy 157.292701 82.737299) (xy 157.345721 82.772726) (xy 157.390812 82.817817) (xy 157.449724 82.842219)
+        (xy 157.502745 82.877647) (xy 157.565288 82.890087) (xy 157.624201 82.91449) (xy 157.687969 82.91449) (xy 157.75051 82.92693)
+        (xy 159.74949 82.92693) (xy 159.812031 82.91449) (xy 159.875799 82.91449) (xy 159.934712 82.890087) (xy 159.997255 82.877647)
+        (xy 160.02 82.862449) (xy 160.042745 82.877647) (xy 160.105288 82.890087) (xy 160.164201 82.91449) (xy 160.227969 82.91449)
+        (xy 160.29051 82.92693) (xy 162.28949 82.92693) (xy 162.352031 82.91449) (xy 162.415799 82.91449) (xy 162.474712 82.890087)
+        (xy 162.537255 82.877647) (xy 162.56 82.862449) (xy 162.582745 82.877647) (xy 162.645288 82.890087) (xy 162.704201 82.91449)
+        (xy 162.767969 82.91449) (xy 162.83051 82.92693) (xy 164.82949 82.92693) (xy 164.892031 82.91449) (xy 164.955799 82.91449)
+        (xy 165.014712 82.890087) (xy 165.077255 82.877647) (xy 165.1 82.862449) (xy 165.122745 82.877647) (xy 165.185288 82.890087)
+        (xy 165.244201 82.91449) (xy 165.307969 82.91449) (xy 165.37051 82.92693) (xy 167.36949 82.92693) (xy 167.432031 82.91449)
+        (xy 167.495799 82.91449) (xy 167.554712 82.890087) (xy 167.617255 82.877647) (xy 167.64 82.862449) (xy 167.662745 82.877647)
+        (xy 167.725288 82.890087) (xy 167.784201 82.91449) (xy 167.847969 82.91449) (xy 167.91051 82.92693) (xy 169.90949 82.92693)
+        (xy 169.972031 82.91449) (xy 170.035799 82.91449) (xy 170.094712 82.890087) (xy 170.157255 82.877647) (xy 170.18 82.862449)
+        (xy 170.202745 82.877647) (xy 170.265288 82.890087) (xy 170.324201 82.91449) (xy 170.387969 82.91449) (xy 170.45051 82.92693)
+        (xy 172.44949 82.92693) (xy 172.512031 82.91449) (xy 172.575799 82.91449) (xy 172.634712 82.890087) (xy 172.697255 82.877647)
+        (xy 172.72 82.862449) (xy 172.742745 82.877647) (xy 172.805288 82.890087) (xy 172.864201 82.91449) (xy 172.927969 82.91449)
+        (xy 172.99051 82.92693) (xy 174.98949 82.92693) (xy 175.052031 82.91449) (xy 175.115799 82.91449) (xy 175.174712 82.890087)
+        (xy 175.237255 82.877647) (xy 175.26 82.862449) (xy 175.282745 82.877647) (xy 175.345288 82.890087) (xy 175.404201 82.91449)
+        (xy 175.467969 82.91449) (xy 175.53051 82.92693) (xy 177.52949 82.92693) (xy 177.592031 82.91449) (xy 177.655799 82.91449)
+        (xy 177.714712 82.890087) (xy 177.777255 82.877647) (xy 177.8 82.862449) (xy 177.822745 82.877647) (xy 177.885288 82.890087)
+        (xy 177.944201 82.91449) (xy 178.007969 82.91449) (xy 178.07051 82.92693) (xy 180.06949 82.92693) (xy 180.132031 82.91449)
+        (xy 180.195799 82.91449) (xy 180.254712 82.890087) (xy 180.317255 82.877647) (xy 180.34 82.862449) (xy 180.362745 82.877647)
+        (xy 180.425288 82.890087) (xy 180.484201 82.91449) (xy 180.547969 82.91449) (xy 180.61051 82.92693) (xy 182.60949 82.92693)
+        (xy 182.672031 82.91449) (xy 182.735799 82.91449) (xy 182.794712 82.890087) (xy 182.857255 82.877647) (xy 182.88 82.862449)
+        (xy 182.902745 82.877647) (xy 182.965288 82.890087) (xy 183.024201 82.91449) (xy 183.087969 82.91449) (xy 183.15051 82.92693)
+        (xy 185.14949 82.92693) (xy 185.212031 82.91449) (xy 185.275799 82.91449) (xy 185.334712 82.890087) (xy 185.397255 82.877647)
+        (xy 185.42 82.862449) (xy 185.442745 82.877647) (xy 185.505288 82.890087) (xy 185.564201 82.91449) (xy 185.627969 82.91449)
+        (xy 185.69051 82.92693) (xy 187.68949 82.92693) (xy 187.752031 82.91449) (xy 187.815799 82.91449) (xy 187.874712 82.890087)
+        (xy 187.937255 82.877647) (xy 187.96 82.862449) (xy 187.982745 82.877647) (xy 188.045288 82.890087) (xy 188.104201 82.91449)
+        (xy 188.167969 82.91449) (xy 188.23051 82.92693) (xy 190.22949 82.92693) (xy 190.292031 82.91449) (xy 190.355799 82.91449)
+        (xy 190.414712 82.890087) (xy 190.477255 82.877647) (xy 190.5 82.862449) (xy 190.522745 82.877647) (xy 190.585288 82.890087)
+        (xy 190.644201 82.91449) (xy 190.707969 82.91449) (xy 190.77051 82.92693) (xy 192.76949 82.92693) (xy 192.832031 82.91449)
+        (xy 192.895799 82.91449) (xy 192.954712 82.890087) (xy 193.017255 82.877647) (xy 193.04 82.862449) (xy 193.062745 82.877647)
+        (xy 193.125288 82.890087) (xy 193.184201 82.91449) (xy 193.247969 82.91449) (xy 193.31051 82.92693) (xy 195.30949 82.92693)
+        (xy 195.372031 82.91449) (xy 195.435799 82.91449) (xy 195.494712 82.890087) (xy 195.557255 82.877647) (xy 195.58 82.862449)
+        (xy 195.602745 82.877647) (xy 195.665288 82.890087) (xy 195.724201 82.91449) (xy 195.787969 82.91449) (xy 195.85051 82.92693)
+        (xy 197.84949 82.92693) (xy 197.912031 82.91449) (xy 197.975799 82.91449) (xy 198.034712 82.890087) (xy 198.097255 82.877647)
+        (xy 198.150276 82.842219) (xy 198.209188 82.817817) (xy 198.254279 82.772726) (xy 198.307299 82.737299) (xy 198.342725 82.684281)
+        (xy 198.350006 82.677) (xy 202.49 82.677) (xy 202.49 120.523) (xy 198.350006 120.523) (xy 198.342725 120.515719)
+        (xy 198.307299 120.462701) (xy 198.254279 120.427274) (xy 198.209188 120.382183) (xy 198.150276 120.357781) (xy 198.097255 120.322353)
+        (xy 198.034712 120.309913) (xy 197.975799 120.28551) (xy 197.912031 120.28551) (xy 197.84949 120.27307) (xy 195.85051 120.27307)
+        (xy 195.787969 120.28551) (xy 195.724201 120.28551) (xy 195.665288 120.309913) (xy 195.602745 120.322353) (xy 195.58 120.337551)
+        (xy 195.557255 120.322353) (xy 195.494712 120.309913) (xy 195.435799 120.28551) (xy 195.372031 120.28551) (xy 195.30949 120.27307)
+        (xy 193.31051 120.27307) (xy 193.247969 120.28551) (xy 193.184201 120.28551) (xy 193.125288 120.309913) (xy 193.062745 120.322353)
+        (xy 193.04 120.337551) (xy 193.017255 120.322353) (xy 192.954712 120.309913) (xy 192.895799 120.28551) (xy 192.832031 120.28551)
+        (xy 192.76949 120.27307) (xy 190.77051 120.27307) (xy 190.707969 120.28551) (xy 190.644201 120.28551) (xy 190.585288 120.309913)
+        (xy 190.522745 120.322353) (xy 190.5 120.337551) (xy 190.477255 120.322353) (xy 190.414712 120.309913) (xy 190.355799 120.28551)
+        (xy 190.292031 120.28551) (xy 190.22949 120.27307) (xy 188.23051 120.27307) (xy 188.167969 120.28551) (xy 188.104201 120.28551)
+        (xy 188.045288 120.309913) (xy 187.982745 120.322353) (xy 187.96 120.337551) (xy 187.937255 120.322353) (xy 187.874712 120.309913)
+        (xy 187.815799 120.28551) (xy 187.752031 120.28551) (xy 187.68949 120.27307) (xy 185.69051 120.27307) (xy 185.627969 120.28551)
+        (xy 185.564201 120.28551) (xy 185.505288 120.309913) (xy 185.442745 120.322353) (xy 185.42 120.337551) (xy 185.397255 120.322353)
+        (xy 185.334712 120.309913) (xy 185.275799 120.28551) (xy 185.212031 120.28551) (xy 185.14949 120.27307) (xy 183.15051 120.27307)
+        (xy 183.087969 120.28551) (xy 183.024201 120.28551) (xy 182.965288 120.309913) (xy 182.902745 120.322353) (xy 182.88 120.337551)
+        (xy 182.857255 120.322353) (xy 182.794712 120.309913) (xy 182.735799 120.28551) (xy 182.672031 120.28551) (xy 182.60949 120.27307)
+        (xy 180.61051 120.27307) (xy 180.547969 120.28551) (xy 180.484201 120.28551) (xy 180.425288 120.309913) (xy 180.362745 120.322353)
+        (xy 180.34 120.337551) (xy 180.317255 120.322353) (xy 180.254712 120.309913) (xy 180.195799 120.28551) (xy 180.132031 120.28551)
+        (xy 180.06949 120.27307) (xy 178.07051 120.27307) (xy 178.007969 120.28551) (xy 177.944201 120.28551) (xy 177.885288 120.309913)
+        (xy 177.822745 120.322353) (xy 177.8 120.337551) (xy 177.777255 120.322353) (xy 177.714712 120.309913) (xy 177.655799 120.28551)
+        (xy 177.592031 120.28551) (xy 177.52949 120.27307) (xy 175.53051 120.27307) (xy 175.467969 120.28551) (xy 175.404201 120.28551)
+        (xy 175.345288 120.309913) (xy 175.282745 120.322353) (xy 175.26 120.337551) (xy 175.237255 120.322353) (xy 175.174712 120.309913)
+        (xy 175.115799 120.28551) (xy 175.052031 120.28551) (xy 174.98949 120.27307) (xy 172.99051 120.27307) (xy 172.927969 120.28551)
+        (xy 172.864201 120.28551) (xy 172.805288 120.309913) (xy 172.742745 120.322353) (xy 172.72 120.337551) (xy 172.697255 120.322353)
+        (xy 172.634712 120.309913) (xy 172.575799 120.28551) (xy 172.512031 120.28551) (xy 172.44949 120.27307) (xy 170.45051 120.27307)
+        (xy 170.387969 120.28551) (xy 170.324201 120.28551) (xy 170.265288 120.309913) (xy 170.202745 120.322353) (xy 170.18 120.337551)
+        (xy 170.157255 120.322353) (xy 170.094712 120.309913) (xy 170.035799 120.28551) (xy 169.972031 120.28551) (xy 169.90949 120.27307)
+        (xy 167.91051 120.27307) (xy 167.847969 120.28551) (xy 167.784201 120.28551) (xy 167.725288 120.309913) (xy 167.662745 120.322353)
+        (xy 167.64 120.337551) (xy 167.617255 120.322353) (xy 167.554712 120.309913) (xy 167.495799 120.28551) (xy 167.432031 120.28551)
+        (xy 167.36949 120.27307) (xy 165.37051 120.27307) (xy 165.307969 120.28551) (xy 165.244201 120.28551) (xy 165.185288 120.309913)
+        (xy 165.122745 120.322353) (xy 165.1 120.337551) (xy 165.077255 120.322353) (xy 165.014712 120.309913) (xy 164.955799 120.28551)
+        (xy 164.892031 120.28551) (xy 164.82949 120.27307) (xy 162.83051 120.27307) (xy 162.767969 120.28551) (xy 162.704201 120.28551)
+        (xy 162.645288 120.309913) (xy 162.582745 120.322353) (xy 162.56 120.337551) (xy 162.537255 120.322353) (xy 162.474712 120.309913)
+        (xy 162.415799 120.28551) (xy 162.352031 120.28551) (xy 162.28949 120.27307) (xy 160.29051 120.27307) (xy 160.227969 120.28551)
+        (xy 160.164201 120.28551) (xy 160.105288 120.309913) (xy 160.042745 120.322353) (xy 160.02 120.337551) (xy 159.997255 120.322353)
+        (xy 159.934712 120.309913) (xy 159.875799 120.28551) (xy 159.812031 120.28551) (xy 159.74949 120.27307) (xy 157.75051 120.27307)
+        (xy 157.687969 120.28551) (xy 157.624201 120.28551) (xy 157.565288 120.309913) (xy 157.502745 120.322353) (xy 157.449724 120.357781)
+        (xy 157.390812 120.382183) (xy 157.345721 120.427274) (xy 157.292701 120.462701) (xy 157.257275 120.515719) (xy 157.249994 120.523)
+        (xy 153.11 120.523) (xy 153.11 82.677) (xy 157.249994 82.677)
+      )
+    )
+  )
 )
